@@ -123,28 +123,3 @@ function consonants(str) {
 function start() {
   // Útfæra
 }
-
-const functionMap = {
-longest,
-shortest,
-reverse,
-vowels,
-consonants,
-palindrome
-};
-
-function myFunction() {
-  const functionName = prompt("Please enter your function (longest, shortest, reverse, vowels, consonants, palindrome ):");
-
-  if (functionName in functionMap) {
-    if (functionName === "longest")
-      const str = longest + prompt(str)
-  }
-  let text = return;
-  if (confirm(text) == true) {
-    text = "You pressed OK!";
-  } else {
-    text = "You canceled!";
-  }
-  document.getElementById("output").innerHTML = text;
-  }
